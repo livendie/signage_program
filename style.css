@@ -1,0 +1,84 @@
+@media all {@page {size: 11in 8.5in; margin: 27mm 16mm 27mm 16mm}}
+
+body {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-box {
+    width: 11in;
+}
+
+.fourupbox {
+    height: 4.25in;
+    width: 6in;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 3.5em;
+    background-color: black;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.content {
+    border-radius: 25px;
+    background-color: white;
+    margin: 0 10px 10px 10px;
+    height: 2.75in;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.5em;
+    line-height: 1em;
+    white-space:break-spaces;
+    overflow: hidden;
+    height: 3em;
+    padding: 0 10px;
+    overflow-wrap: break-word
+}
+
+.part_number {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 20px;
+    float: left;
+}
+
+.regular {
+    font-weight: bold;
+    padding-right: 20px;
+    float: right;
+}
+
+.sale {
+    font-family: 'Permanent Marker', cursive;
+    text-align: right;
+    font-size: 7em;
+    font-weight: 400;
+    padding: 0 20px 0 0;
+    height: 1.8in;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+    .price {
+       font-size: 7em;
+    }
+}
+
+sup {
+    vertical-align:middle;
+    font-size: .5em;
+}
+
+.row {
+    background-color: black;
+}
